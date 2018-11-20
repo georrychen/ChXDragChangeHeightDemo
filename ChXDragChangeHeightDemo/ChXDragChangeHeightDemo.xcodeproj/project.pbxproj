@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9529854421A3F07400380D07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9529854321A3F07400380D07 /* AppDelegate.m */; };
+		9529854721A3F07400380D07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9529854621A3F07400380D07 /* ViewController.m */; };
+		9529854A21A3F07400380D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9529854821A3F07400380D07 /* Main.storyboard */; };
+		9529854C21A3F07800380D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9529854B21A3F07800380D07 /* Assets.xcassets */; };
+		9529854F21A3F07800380D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9529854D21A3F07800380D07 /* LaunchScreen.storyboard */; };
+		9529855221A3F07800380D07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9529855121A3F07800380D07 /* main.m */; };
+		9529855B21A3F12B00380D07 /* ChXTopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9529855A21A3F12B00380D07 /* ChXTopScrollView.m */; };
+		9529855E21A3F17300380D07 /* ChXBottomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9529855D21A3F17300380D07 /* ChXBottomScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9529853F21A3F07400380D07 /* ChXDragChangeHeightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChXDragChangeHeightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9529854221A3F07400380D07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9529854321A3F07400380D07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9529854521A3F07400380D07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9529854621A3F07400380D07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9529854921A3F07400380D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9529854B21A3F07800380D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9529854E21A3F07800380D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9529855021A3F07800380D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9529855121A3F07800380D07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9529855921A3F12B00380D07 /* ChXTopScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChXTopScrollView.h; sourceTree = "<group>"; };
+		9529855A21A3F12B00380D07 /* ChXTopScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChXTopScrollView.m; sourceTree = "<group>"; };
+		9529855C21A3F17300380D07 /* ChXBottomScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChXBottomScrollView.h; sourceTree = "<group>"; };
+		9529855D21A3F17300380D07 /* ChXBottomScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChXBottomScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9529853C21A3F07400380D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9529853621A3F07400380D07 = {
+			isa = PBXGroup;
+			children = (
+				9529854121A3F07400380D07 /* ChXDragChangeHeightDemo */,
+				9529854021A3F07400380D07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9529854021A3F07400380D07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9529853F21A3F07400380D07 /* ChXDragChangeHeightDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9529854121A3F07400380D07 /* ChXDragChangeHeightDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9529855821A3F0EF00380D07 /* View */,
+				9529854221A3F07400380D07 /* AppDelegate.h */,
+				9529854321A3F07400380D07 /* AppDelegate.m */,
+				9529854521A3F07400380D07 /* ViewController.h */,
+				9529854621A3F07400380D07 /* ViewController.m */,
+				9529854821A3F07400380D07 /* Main.storyboard */,
+				9529854B21A3F07800380D07 /* Assets.xcassets */,
+				9529854D21A3F07800380D07 /* LaunchScreen.storyboard */,
+				9529855021A3F07800380D07 /* Info.plist */,
+				9529855121A3F07800380D07 /* main.m */,
+			);
+			path = ChXDragChangeHeightDemo;
+			sourceTree = "<group>";
+		};
+		9529855821A3F0EF00380D07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9529855921A3F12B00380D07 /* ChXTopScrollView.h */,
+				9529855A21A3F12B00380D07 /* ChXTopScrollView.m */,
+				9529855C21A3F17300380D07 /* ChXBottomScrollView.h */,
+				9529855D21A3F17300380D07 /* ChXBottomScrollView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9529853E21A3F07400380D07 /* ChXDragChangeHeightDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9529855521A3F07800380D07 /* Build configuration list for PBXNativeTarget "ChXDragChangeHeightDemo" */;
+			buildPhases = (
+				9529853B21A3F07400380D07 /* Sources */,
+				9529853C21A3F07400380D07 /* Frameworks */,
+				9529853D21A3F07400380D07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChXDragChangeHeightDemo;
+			productName = ChXDragChangeHeightDemo;
+			productReference = 9529853F21A3F07400380D07 /* ChXDragChangeHeightDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9529853721A3F07400380D07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ChX;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = xu.yzl;
+				TargetAttributes = {
+					9529853E21A3F07400380D07 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 9529853A21A3F07400380D07 /* Build configuration list for PBXProject "ChXDragChangeHeightDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9529853621A3F07400380D07;
+			productRefGroup = 9529854021A3F07400380D07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9529853E21A3F07400380D07 /* ChXDragChangeHeightDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9529853D21A3F07400380D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9529854F21A3F07800380D07 /* LaunchScreen.storyboard in Resources */,
+				9529854C21A3F07800380D07 /* Assets.xcassets in Resources */,
+				9529854A21A3F07400380D07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9529853B21A3F07400380D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9529855E21A3F17300380D07 /* ChXBottomScrollView.m in Sources */,
+				9529854721A3F07400380D07 /* ViewController.m in Sources */,
+				9529855B21A3F12B00380D07 /* ChXTopScrollView.m in Sources */,
+				9529855221A3F07800380D07 /* main.m in Sources */,
+				9529854421A3F07400380D07 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9529854821A3F07400380D07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9529854921A3F07400380D07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9529854D21A3F07800380D07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9529854E21A3F07800380D07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9529855321A3F07800380D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9529855421A3F07800380D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9529855621A3F07800380D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GRN7HWGGT;
+				INFOPLIST_FILE = ChXDragChangeHeightDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "georry-chen.ChXDragChangeHeightDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9529855721A3F07800380D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GRN7HWGGT;
+				INFOPLIST_FILE = ChXDragChangeHeightDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "georry-chen.ChXDragChangeHeightDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9529853A21A3F07400380D07 /* Build configuration list for PBXProject "ChXDragChangeHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9529855321A3F07800380D07 /* Debug */,
+				9529855421A3F07800380D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9529855521A3F07800380D07 /* Build configuration list for PBXNativeTarget "ChXDragChangeHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9529855621A3F07800380D07 /* Debug */,
+				9529855721A3F07800380D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9529853721A3F07400380D07 /* Project object */;
+}
